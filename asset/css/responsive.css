@@ -1,0 +1,41 @@
+/* Adjust styles for screens with a maximum width of 1400px */
+@media (max-width: 1400px) {
+	.weather-data .current-weather {
+	  padding: 20px;
+	}
+	.weather-cards {
+	  flex-wrap: wrap;
+	}
+	.weather-cards .card {
+	  width: calc(25% - 15px); /* Adjusted to 25% */
+	}
+  }
+  
+  /* Adjust styles for screens with a maximum width of 1200px */
+  @media (max-width: 1200px) {
+	.weather-cards .card {
+	  width: calc(33.33% - 15px); /* Adjusted to 33.33% */
+	}
+  }
+  
+  /* Adjust styles for screens with a maximum width of 950px */
+  @media (max-width: 950px) {
+	.weather-input {
+	  width: 450px; /* Adjusted to a fixed width */
+	}
+	.weather-cards .card {
+	  width: calc(50% - 10px); /* Adjusted to 50% */
+	}
+  }
+  
+  /* Adjust styles for screens with a maximum width of 750px */
+  @media (max-width: 750px) {
+	.container {
+	  flex-wrap: wrap;
+	  padding: 15px;
+	}
+	.weather-input {
+	  width: 100%;
+	}
+  }
+  
