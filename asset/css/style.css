@@ -107,3 +107,7 @@ h1 {
 .weather-cards .card img{
 	max-width: 70px;
 }
+.details{
+	background: #1982f2;
+	width: 100%;
+}
