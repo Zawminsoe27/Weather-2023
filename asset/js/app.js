@@ -4,7 +4,7 @@ let selector = (ele) => document.querySelector(ele);
 let allSelector = (ele) => document.querySelectorAll(ele);
 
 const cityinput = selector(".city-input");
-const API_KEY = "40a8407233150c80b8391dc6c2a53a7c";
+const API_KEY = "";//use you api key
 const searchButton = selector(".search-btn");
 const currentWeatherDiv = selector(".current-weather");
 const weatherCardsDiv = selector(".weather-cards");
